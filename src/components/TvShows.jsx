@@ -29,6 +29,7 @@ const TvShow = () => {
                 <div key={item.id}>
                     <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`}/>
                     <p>{item.name}</p>
+                   
             
                 </div>
             ))}

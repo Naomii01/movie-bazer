@@ -29,6 +29,7 @@ const Movies = () => {
                 <div key={item.id}>
                     <img src={`https://image.tmdb.org/t/p/w500${item.poster_path}`}/>
                     <p>{item.title}</p>
+                    <p>{item.overview}</p>
                 </div>
             ))}
         </div>
